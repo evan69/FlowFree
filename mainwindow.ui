@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Flow Free</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>480</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Last Level</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>10</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Next Level</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>10</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Restart</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Choose Size</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="action5_5"/>
+    <addaction name="action6_9"/>
+    <addaction name="action7_9"/>
+   </widget>
+   <widget class="QMenu" name="menuExit">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionAuthor"/>
+    <addaction name="actionExit_game"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuExit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action6_6">
+   <property name="text">
+    <string>5*5</string>
+   </property>
+  </action>
+  <action name="action6_7">
+   <property name="text">
+    <string>6*6</string>
+   </property>
+  </action>
+  <action name="action7_7">
+   <property name="text">
+    <string>7*7</string>
+   </property>
+  </action>
+  <action name="actionAuthor">
+   <property name="text">
+    <string>author</string>
+   </property>
+  </action>
+  <action name="actionExit_game">
+   <property name="text">
+    <string>exit game</string>
+   </property>
+  </action>
+  <action name="action6_8">
+   <property name="text">
+    <string>6*6</string>
+   </property>
+  </action>
+  <action name="action7_8">
+   <property name="text">
+    <string>7*7</string>
+   </property>
+  </action>
+  <action name="action5_5">
+   <property name="text">
+    <string>5*5</string>
+   </property>
+  </action>
+  <action name="action6_9">
+   <property name="text">
+    <string>6*6</string>
+   </property>
+  </action>
+  <action name="action7_9">
+   <property name="text">
+    <string>7*7</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionExit_game</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

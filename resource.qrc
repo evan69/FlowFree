@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/sound">
+        <file>forward.wav</file>
+        <file>leak.wav</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>51</file>
+        <file>52</file>
+        <file>61</file>
+        <file>62</file>
+        <file>71</file>
+        <file>72</file>
+    </qresource>
+</RCC>
